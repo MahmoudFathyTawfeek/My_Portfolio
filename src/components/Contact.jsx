@@ -2,7 +2,7 @@ export default function Contact() {
   const links = [
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/your-username",
+      url: "https://www.linkedin.com/in/mahmoud-fathy-tawfeek-8239aa229/",
       icon: "bi bi-linkedin",
     },
     {

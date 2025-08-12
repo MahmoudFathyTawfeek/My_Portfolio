@@ -32,7 +32,7 @@ export default function Projects() {
     },
     {
       title: "MovieVibe",
-      img: "https://via.placeholder.com/400x250?text=Blog",
+      img: "/MovieVibe.png",
       desc: "Native Javascript movie website by JS, HTML and CSS only.",
       demo: "#",
       code: "https://github.com/MahmoudFathyTawfeek/Movies-Js",

@@ -5,7 +5,7 @@ export default function Header() {
         <div className="container-fluid px-3">
           <div className="col-md-1">
             <img
-             src="/FB_IMG_17347151220558321_1.jpg"
+             src="/favicon.ico"
               alt="Mahmoud"
               className="img-fluid rounded-circle shadow"
               style={{ maxWidth: "45px", border:"1px solid white" }}
