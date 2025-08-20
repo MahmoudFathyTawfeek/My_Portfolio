@@ -24,11 +24,11 @@ export default function Projects() {
       code: "https://github.com/MahmoudFathyTawfeek/NextJS--Project",
     },
     {
-      title: "Portfolio",
-      img: "/portfolio.PNG",
-      desc: "a personal portfolio by React js and Bootstrap.",
-      demo: "#",
-      code: "#",
+      title: "Law firm Website",
+      img: "/lowyer_website.PNG",
+      desc: "a law firm website by React js and Bootstrap.",
+      demo: "https://lawyer-website-sigma-green.vercel.app/",
+      code: "https://github.com/MahmoudFathyTawfeek/Lawyer_Website",
     },
     {
       title: "MovieVibe",
@@ -39,7 +39,7 @@ export default function Projects() {
     },
     {
       title: "E-Commerce Website",
-      img: "/angular_ECommerce.PNG",
+      img: "/angular_ECommerce.png",
       desc: "E_Commerce website by Angular and bootstrap.",
       demo: "#",
       code: "https://github.com/MahmoudFathyTawfeek/Angular_E_commerce",

@@ -4,8 +4,8 @@
 bg-black {
   background-color: #000;
 }
-bg-blue {
-  background-color: #00f;
+.bg-blue {
+  background-color: rgb(156, 156, 197);
 }
 .App-logo {
   height: 40vmin;
