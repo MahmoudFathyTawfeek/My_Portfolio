@@ -38,7 +38,7 @@ export default function Projects() {
       code: "https://github.com/MahmoudFathyTawfeek/Movies-Js",
     },
     {
-      title: "E-Commerce Website",
+      title: "E-Commerce Angular Website",
       img: "/angular_ECommerce.png",
       desc: "E_Commerce website by Angular and bootstrap.",
       demo: "#",
