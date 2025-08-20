@@ -39,7 +39,7 @@ export default function Projects() {
     },
     {
       title: "E-Commerce Angular Website",
-     img: "/angular_ecommerce.PNG",
+     img: "/angu.png",
       desc: "E_Commerce website by Angular and bootstrap.",
       demo: "#",
       code: "https://github.com/MahmoudFathyTawfeek/Angular_E_commerce",
