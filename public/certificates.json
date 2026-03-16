@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Bacarelce of computer science",
+    "organization": "Faculty of Computer&Information / Luxor univercity",
+    "date": "2022",
+    "image": "/images/cert1.jpg",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Full stack web development using MEARN",
+    "organization": "ITI",
+    "date": "2025",
+    "image": "/images/cert2.jpg",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "CCNA",
+    "organization": "S.T.I",
+    "date": "2025",
+    "image": "/images/cert3.jpg",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "ICDL",
+    "organization": "SPS Egypt",
+    "date": "2023",
+    "image": "/images/cert4.jpg",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "English Conversation",
+    "organization": "SPS Egypt",
+    "date": "2023",
+    "image": "/images/cert5.jpg",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "General English",
+    "organization": "SPS Egypt",
+    "date": "2023",
+    "image": "/images/cert6.jpg",
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "title": "Online integrated work program",
+    "organization": "SPS Egypt",
+    "date": "2023",
+    "image": "/images/cert7.jpg",
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "title": "Job Hunted",
+    "organization": "SPS Egypt",
+    "date": "2023",
+    "image": "/images/cert8.jpg",
+    "link": "#"
+  },
+  {
+    "id": 9,
+    "title": "Intergrated English Program",
+    "organization": "SPS Egypt",
+    "date": "2023",
+    "image": "/images/cert9.jpg",
+    "link": "#"
+  },
+  {
+    "id": 10,
+    "title": "Human Resources (HR)",
+    "organization": "SPS Egypt",
+    "date": "2023",
+    "image": "/images/cert10.jpg",
+    "link": "#"
+  },
+  {
+    "id": 11,
+    "title": "Soft Skills",
+    "organization": "SPS Egypt",
+    "date": "2023",
+    "image": "/images/cert11.jpg",
+    "link": "#"
+  },
+  {
+    "id": 12,
+    "title": "Human Development Program",
+    "organization": "SPS Egypt",
+    "date": "2023",
+    "image": "/images/cert12.jpg",
+    "link": "#"
+  }
+]

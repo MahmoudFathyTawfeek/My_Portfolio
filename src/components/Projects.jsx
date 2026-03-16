@@ -1,6 +1,11 @@
 import { useEffect } from "react";
+import React, { useContext } from 'react';
+import { ThemeContext } from '../components/themeContext';
 
 export default function Projects() {
+    const { darkMode } = useContext(ThemeContext); // 👈 نجيب قيمة المود
+    const containerClass = darkMode ? 'bg-dark text-white' : 'bg-light text-dark';
+  
   const projects = [
     {
       title: "Movies Website",
@@ -63,9 +68,9 @@ export default function Projects() {
   }, []);
 
   return (
-        <div className="container-fuild bg-dark py-5" id="projects" style={{borderBottom: "1px solid #f8f9fa"}}>
+        <div className={`${containerClass} container-fuild py-5`} id="projects" style={{borderBottom: "1px solid #000"}}>
       <div className="container text-center" >
-        <h2 className="fw-bold mb-4 text-white">My Projects</h2>
+        <h2 className="fw-bold mb-4 ">My Projects</h2>
         <div className="row g-4 justify-content-center" >
           {projects.map((project, idx) => (
             <div

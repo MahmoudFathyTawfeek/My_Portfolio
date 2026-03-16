@@ -19,7 +19,7 @@ bg-black {
 }
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,4 +40,16 @@ bg-black {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.light-mode {
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #fff;
 }

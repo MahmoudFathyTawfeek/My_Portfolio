@@ -1,6 +1,11 @@
 import { useEffect } from "react";
+import React, { useContext } from 'react';
+import { ThemeContext } from '../components/themeContext';
 
 export default function Skills() {
+  const { darkMode } = useContext(ThemeContext); // 👈 نجيب قيمة المود
+  const containerClass = darkMode ? 'bg-dark text-white' : 'bg-light text-dark';
+
   useEffect(() => {
     const progressBars = document.querySelectorAll(".progress-bar");
     const observer = new IntersectionObserver(
@@ -68,7 +73,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-5 bg-dark text-white"style={{borderBottom: "1px solid #f8f9fa"}}>
+    <section id="skills" className={`${containerClass} py-5 `}style={{borderBottom: "1px solid #000"}}>
       <div className="container text-center">
         <h2 className="fw-bold mb-4">My Skills</h2>
         <div className="row g-3 justify-content-center">

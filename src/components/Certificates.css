@@ -1,0 +1,127 @@
+.certificates {
+  text-align: center;
+}
+
+/* Container */
+.certificates-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+ 
+}
+
+/* Card */
+.certificate-card {
+  width: 370px;
+  height: 480px;
+  padding: 10px;
+  border-radius: 20px;
+
+  backdrop-filter: blur(15px);
+  background: rgba(38, 228, 13, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hover */
+.certificate-card:hover {
+  transform: translateY(-10px) scale(1.03);
+}
+
+/* Image */
+.certificate-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Content spacing */
+.certificate-card h3 {
+  margin: 5px 0;
+}
+
+.certificate-card p {
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.certificate-card span {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Push button to bottom */
+.certificate-card a {
+  margin-top: auto;        /* يخليه ينزل تحت خالص */
+  align-self: center;      /* يخليه في النص */
+
+  padding: 8px 20px;
+  border-radius: 8px;
+  background: #010f0f;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.certificate-card a:hover {
+  background: #00fff5;
+  color: black;
+}
+
+/* Scroll Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.pagination button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #00adb5;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+
+.pagination button:hover:not(:disabled) {
+  background: #00fff5;
+  color: black;
+}
+
+.pagination button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .certificate-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}

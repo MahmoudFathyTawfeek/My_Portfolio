@@ -1,4 +1,10 @@
+import React, { useContext } from 'react';
+import { ThemeContext } from '../components/themeContext'; // 👈 لازم نستورد الكونتكست
+
+
 export default function Contact() {
+      const { darkMode } = useContext(ThemeContext); // 👈 نجيب قيمة المود
+      const containerClass = darkMode ? 'bg-dark text-white' : 'bg-light text-dark';
   const links = [
     {
       name: "LinkedIn",
@@ -23,7 +29,7 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-5 bg-dark text-white">
+    <section id="contact" className={`${containerClass} py-5 `}>
       <div className="container text-center">
         <h2 className="fw-bold mb-4">Contact Me</h2>
         <p className="mb-4">
