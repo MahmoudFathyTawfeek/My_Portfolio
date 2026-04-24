@@ -53,7 +53,7 @@ const Certificates = () => {
         {currentCertificates.map((cert, index) => (
           <div
             key={cert.id}
-            className="certificate-card fade-in"
+           className={`certificate-card fade-in ${index < 2 ? "show" : ""}`}
             ref={el => (cardsRef.current[index] = el)}
           >
             <img src={cert.image} alt={cert.title} />
