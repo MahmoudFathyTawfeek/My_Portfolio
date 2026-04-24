@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="container ">
         <h1 className="display-4 fw-bold">Hi, I’m Mahmoud Tawfeek</h1>
         <p className="lead">Fullstack Developer | Node js & MongoDB & Angular & React & Tailwind & Bootstrap</p>
-        <a href="#projects" className="btn border shadow-sm mt-3 bg-danger ">View My Work</a>
+        <a href="https://drive.google.com/file/d/1fC-5GPYDQI47RnqAqGufjHYmijQ_T4V6/view?usp=drive_link" className="btn border shadow-sm mt-3 bg-danger ">View My CV</a>
       </div>
     </section>
   );
