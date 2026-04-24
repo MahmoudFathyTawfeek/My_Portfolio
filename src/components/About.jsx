@@ -15,8 +15,8 @@ export default function About() {
           <img
             src="/mahmoud.jpeg"
             alt="Mahmoud"
-            className="img-fluid rounded-circle shadow card shadow-sm project-hover"
-            style={{ maxWidth: "300px" }}
+            className="img-fluid rounded shadow card shadow-sm project-hover"
+            style={{ maxWidth: "400px"}}
           />
         </div>
 

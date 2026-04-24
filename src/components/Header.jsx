@@ -75,7 +75,7 @@ export default function Header() {
               <li className="nav-item"><a href="#contact" className="nav-link text-white">Contact</a></li>
               <li className="nav-item me-3">
                 <button className="btn btn-sm btn-outline-secondary py-2" onClick={toggleMode}>
-                  {darkMode ? '🌞 Light Mode' : '🌙 Dark Mode'}
+                  {darkMode ? '🌞 Light' : '🌙 Dark'}
                 </button>
               </li>
             </ul>
